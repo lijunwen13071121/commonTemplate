@@ -4,7 +4,6 @@ import Home from '../pages/homePage/index'
 import Index from '../pages/index/index'
 import Pdf from '../pages/pdf/index'
 import Move from '../pages/move/index'
-import Canvas from '../pages/canvas/index'
 
 Vue.use(VueRouter)
 export default new VueRouter({
@@ -34,7 +33,12 @@ export default new VueRouter({
     {
       path: '/canvas',
       name: 'Canvas',
-      component: Canvas
+      component: () => import('@/pages/canvas/index')
+    },
+    {
+      path: '/qusetion',
+      name: 'Qusetion',
+      component: () => import('@/pages/qusetion/index')
     }
   ]
 })
