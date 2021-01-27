@@ -35,16 +35,6 @@ export default new VueRouter({
       path: '/canvas',
       name: 'Canvas',
       component: Canvas
-    },
-    {
-      path: '/Use1',
-      name: 'Use1',
-      component: () => import('@/pages/vueUse/index')
-    },
-    {
-      path: '/Use2',
-      name: 'Use2',
-      component: () => import('@/pages/vueUse/index2')
     }
   ]
 })
