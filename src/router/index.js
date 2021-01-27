@@ -5,8 +5,6 @@ import Index from '../pages/index/index'
 import Pdf from '../pages/pdf/index'
 import Move from '../pages/move/index'
 import Canvas from '../pages/canvas/index'
-import Draw from '../pages/canvas/draw'
-import CanvasTest from '../pages/canvas/test'
 
 Vue.use(VueRouter)
 export default new VueRouter({
@@ -37,16 +35,6 @@ export default new VueRouter({
       path: '/canvas',
       name: 'Canvas',
       component: Canvas
-    },
-    {
-      path: '/draw',
-      name: 'Draw',
-      component: Draw
-    },
-    {
-      path: '/canvasTest',
-      name: 'CanvasTest',
-      component: CanvasTest
     },
     {
       path: '/Use1',

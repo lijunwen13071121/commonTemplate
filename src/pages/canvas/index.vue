@@ -18,9 +18,6 @@
       makeCanvas1() {
         const canvas = document.getElementById('canvas-js1')
         const ctx = canvas.getContext('2d')
-        // const ctxImage = canvas.getContext('2d')
-        // canvasContext.fillStyle = 'red'
-        // canvasContext.fillRect(0, 0, 200, 200)
         canvas.height = 300
         canvas.width = 300
         ctx.beginPath()
